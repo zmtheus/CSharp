@@ -1,0 +1,12 @@
+Console.Clear();
+Console.WriteLine("Digite a senha");
+
+int password = int.Parse(Console.ReadLine());
+
+while (password != 2002)
+{
+    Console.WriteLine("Senha Invalida");
+    password = int.Parse(Console.ReadLine());
+}
+
+Console.WriteLine("Acesso Permitido");

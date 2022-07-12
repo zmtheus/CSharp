@@ -1,0 +1,30 @@
+Console.Clear();
+Console.WriteLine("Digite o Valor para a: ");
+double a = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite o Valor para b: ");
+double b = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite o Valor para c: ");
+double c = double.Parse(Console.ReadLine());
+
+if (a > 0)
+{
+    double d = 4 * a * c;
+    double delta = Math.Pow(b, 2) - d;
+
+    if (delta < 0)
+    {
+        Console.WriteLine("Impossivel Calcular");
+        System.Environment.Exit(0);
+    }
+
+    double x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+    Console.WriteLine(x1);
+
+    double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
+    Console.Write(x2); 
+} else
+{
+    Console.WriteLine("Impossível Calcular");
+}

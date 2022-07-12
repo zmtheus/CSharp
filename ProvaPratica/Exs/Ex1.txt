@@ -1,0 +1,16 @@
+Console.Clear();
+Console.WriteLine("Digite a primeira quantidade: ");
+short firstQtd = short.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite o primeiro valor: ");
+float firstValue = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite a segunda quantidade: ");
+short secQtd = short.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite a primeira quantidade: ");
+float secValue = float.Parse(Console.ReadLine());
+
+float result = (firstQtd * firstValue) + (secQtd * secValue);
+
+Console.WriteLine(result);
