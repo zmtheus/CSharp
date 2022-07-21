@@ -19,3 +19,6 @@ for (int i = 0; i < n; i++)
     Console.WriteLine($"{inn} in");
     Console.WriteLine($"{outt} out");
 }
+
+
+int nz = int.MinValue;

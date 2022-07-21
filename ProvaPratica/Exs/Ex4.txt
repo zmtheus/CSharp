@@ -28,3 +28,7 @@ if (a > 0)
 {
     Console.WriteLine("Impossível Calcular");
 }
+
+// Para poder Deixar com ".", o F2 é para determinar duas casas decimais
+using System.Globalization;
+var.ToString("F2", CultureInfo.InvariantCulture);
